@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px 25px;
+}
+
+.button {
+    display: flex;
+    background-color: #F9DD00;
+    width: 147px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #323232;
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 180px;
+}
+
+.menu li {
+    display: flex;
+    margin: 10px 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #323232;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+#slide-section .container {
+    width: 96%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#slide-section img {
+    width: 100%;
+}
+
+
+#first-section .container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.teaching-fields {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#first-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.digial-marketing {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.6s;
+}
+
+.digial-marketing:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #872891;
+    color: white;
+
+}
+
+.design {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.6s;
+}
+
+.design:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #FFCD05;
+    color: white;
+
+}
+
+.syber-security {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.6s;
+}
+
+.syber-security:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #00B45A;
+    color: white;
+
+}
+
+.programming {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.6s;
+}
+
+.programming:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #2382C8;
+    color: white;
+}
+
+.teaching-fields-texts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.header-texts h2 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.header-texts h3 {
+    font-weight: 300;
+    font-size: 60px;
+    opacity: 0.5;
+}
+
+.teaching-fields-texts p {
+    margin-top: 50px;
+    width: 50%;
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.5;
+
+}
+
+.header-texts {
+    position: relative;
+}
+
+.teaching-fields-texts h3:after {
+    content: "";
+    width: 104px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #b813a2;
+}
+
+@media only screen and (max-width:768px) {
+
+    #first-section {
+        margin-bottom: 550px;
+    }
+
+    #first-section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teaching-fields {
+        width: 80%;
+    }
+
+    .teaching-fields-texts {
+        margin: 0;
+        margin-right: 120px;
+        align-items: flex-start;
+    }
+
+    .col-6 {
+        width: 80%;
+    }
+
+}
+
+
+#academy .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-header h1 {
+    font-size: 60px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.section-header {
+    position: relative;
+}
+
+.section-header img {
+    width: 104px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+
+.section-header p {
+    width: 60%;
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+
+.section-about {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#academy .texts {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#academy .texts h4 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#academy .texts a {
+    margin-top: 60px;
+}
+
+
+.col-6 img {
+    width: 208px;
+    height: 208px;
+    margin: 10px;
+}
+
+
+.col-6 {
+    width: 50%;
+    display: flex;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-6 {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    #academy img {
+        display: none;
+    }
+
+}
+
+
+
+
+#second-section .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/code-academy-bg.jpeg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.academy-peoples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.academy-peoples p {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.academy-peoples-about {
+    display: flex;
+    width: 100%;
+    height: 420px;
+    margin: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.row-3 {
+    width: 25%;
+    color: #fff;
+}
+
+.row-3 h2 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.row-3 span {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:768px) {
+    #second-section .container {
+        background-image: url(../images/code-academy-bg-responsive.jpeg);
+        background-attachment: scroll;
+        margin-left: 80px;
+    }
+
+    .academy-peoples p {
+        width: 80%;
+        font-size: 30px;
+        font-weight: 400;
+
+    }
+
+    .row-3 {
+        width: 100%;
+    }
+
+    .row-3 h2 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .row-3 span {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+#success-storyes .container {
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.graduates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graduates h2 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+
+.graduates span {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.graduates p {
+    width: 60%;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+
+#success-storyes .student img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.student {
+    display: flex;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.student h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.student span {
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+#our-partners .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#our-partners .header-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#our-partners .header-texts img {
+    margin-top: 20px;
+}
+
+#our-partners .header-texts p {
+    font-size: 20px;
+    margin: 50px 0;
+    opacity: 0.5;
+    width: 50%;
+}
+
+.col-2 {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.col-2 img {
+    width: 12%;
+    max-width: 120px;
+    margin: 0 35px;
+}
+
+.col-2 img:last-child {
+    margin-left: 0;
+}
+
+#our-graduates .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#our-graduates .header-texts h3:after {
+    content: "";
+    width: 104px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    background-color: #FFCD05;
+}
+
+.our-graduates-images{
+      width: 90%;
+    margin: 0 auto;
+}
+
+.our-graduates-images .graduated-student{
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.our-graduates-images .graduated-student img {
+    width: 13%;
+    margin: 5px;
+    transition: all 2s;
+    position: relative;
+}
+
+.graduated-student h2{
+    display: inline;
+    position: absolute;
+    margin-left: 50px;
+}
+
+
+.our-graduates-images img:hover {
+    transform: rotateX(400deg);
+    opacity: 0.5;
+}
